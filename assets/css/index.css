@@ -1,0 +1,270 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #F8F6E3;
+
+}
+
+nav {
+    background-color: #6AD4DD;
+    border-radius: 0px 0px 10px 10px;
+    height: 80px;
+    
+}
+
+.nav-container {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.list-menu {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:30px;
+  
+}
+
+.list-menu > a {
+    text-decoration: none;
+    color: #FBF6EE;
+    
+}
+
+.list-menu, a > li {
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+
+.nav-button > button {
+    background-color: #7AA2E3;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    border: 0px;
+    font-size: 15px;
+    position: relative;
+    bottom: 23px;
+}
+
+.nav-button > button:hover {
+    background-color: #FBF6EE;
+    color: black;
+    border: 1px solid black;
+}
+
+.nav-brand {
+    position: relative;
+    bottom:20px;
+   
+}
+
+
+.nav-input {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-input > input {
+    width: 100%;
+    border-radius: 5px;
+    border: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+.container-welcome {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-home {
+    padding: 10px;
+}
+.img-home > img {
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.heading-home {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.btn-home {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #6AD4DD;
+    width: 200px;
+    height: 60px;
+    font-weight: 600;
+    color: #F8F6E3;
+    font-size: 20PX;
+    margin-top: 20px;
+    animation: scaleUp 2s infinite;
+}
+
+@keyframes scaleUp {
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.row-rekomen {
+    margin-top: 10rem;
+ 
+    align-self: center;
+    
+    
+}
+
+.row-container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+    align-items: center;
+   
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: 15%;
+
+}
+
+
+.row-rekomen > h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.row-menu {
+  
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    transform: transform 0.3 ease ;
+    
+}
+
+.row-menu:hover {
+    transform: scale(1.1);
+}
+.rowimg {
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    align-self: center;
+    align-items: center;
+    
+    
+}
+
+.row-text {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#hotel {
+    margin-top: 10rem;
+}
+
+.heading-hotel {
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.hotel-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+}
+
+.hotel-card {
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    
+}
+
+
+.hotel-img {
+    width: auto;
+    height: 300px;
+}
+
+.deks-hotel > p {
+    text-align: justify;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.deks-hotel > h1 {
+    text-align: center;
+}
+
+.deks-hotel > h5 {
+    margin-top: 50px;
+}
+
+.deks-hotel {
+    margin-left: 10px;
+    
+}
+
+.bg-login {
+    background-image: url("../../assets/img/loginbg.png");
+    background-repeat: no-repeat;
+    padding: 10PX;
+}
+
+.card-login {
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background: rgba(225, 225, 225, 0.5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    
+
+
+}
